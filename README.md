@@ -70,8 +70,6 @@ Generate complete families of time period calculations in seconds. No more writi
 
 **Auto-variance:** Select Prior Period, Year over Year, or Both. The builder automatically generates the comparison period flags, absolute variance, and growth % calculations for every selected measure. No need to manually select or build prior period flags.
 
-**Parameter reference date:** Use a date parameter instead of TODAY() as the anchor for all generated formulas. Select an existing date parameter from the workbook or create one inline. Formulas automatically use `[Parameters].[Reference Date]` instead of `TODAY()`, giving users control over which date drives the time intelligence logic.
-
 **Measure wrapping:** Select your base measures (Sales, Profit, etc.) and the builder creates filtered measure calculations for each time period flag.
 
 ---
