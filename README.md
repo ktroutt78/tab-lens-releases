@@ -176,18 +176,6 @@ Then open the app normally.
 
 Run the `.msi` installer. Windows SmartScreen may show an "Unknown publisher" warning. Click **More info** then **Run anyway**.
 
-### Run from source
-
-```bash
-git clone https://github.com/ktroutt78/tableau-lens.git
-cd tableau-lens
-npm install
-pip install -r sidecar/requirements.txt
-PYTHON_EXECUTABLE=python3 npm run tauri dev
-```
-
----
-
 ## Requirements
 
 - Tableau Desktop 2020.1 or later workbooks
@@ -201,6 +189,13 @@ If you run into bugs or have feature requests, please [open an issue](../../issu
 
 ---
 
+## About
+
+Tab Lens development began on March 2, 2026.
+Submitted to the TC2026 Hackathon in April 2026.
+
+---
+
 ## License
 
-Coming soon.
+© 2026 Keith Troutt. All rights reserved. Source code is proprietary.
