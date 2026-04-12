@@ -16,6 +16,17 @@ Tab Lens solves all of these.
 
 ## Key Features
 
+### Tableau Cloud Integration
+
+Connect to Tableau Cloud directly from Tab Lens. Browse your site's projects, open workbooks and data sources without manually downloading, and publish changes back when you're done.
+
+- **Connect with a Personal Access Token (PAT)**: sign in once and stay connected across sessions. Credentials are stored securely in the OS keychain.
+- **Browse projects**: navigate your Cloud site's project hierarchy, filter by workbooks or data sources, and open any item directly into Tab Lens.
+- **Edit and publish**: make changes with all existing Tab Lens features (documentation, formulas, TI Builder, etc.), then publish back to Cloud with one click. No manual download/upload cycle.
+- **Cloud origin tracking**: the status bar shows when a file was opened from Cloud and which project it belongs to.
+
+---
+
 ### AI-Powered Workbook Documentation
 
 The **Field Documenter** generates plain-English descriptions for every calculated field and raw data column in your workbook in a single session. No more undocumented workbooks.
@@ -58,6 +69,8 @@ Generate complete families of time period calculations in seconds. No more writi
 **Rolling window control:** Choose "Thru Today" (includes the current partial day) or "Prior Only" (complete periods only, excluding today).
 
 **Auto-variance:** Select Prior Period, Year over Year, or Both. The builder automatically generates the comparison period flags, absolute variance, and growth % calculations for every selected measure. No need to manually select or build prior period flags.
+
+**Parameter reference date:** Use a date parameter instead of TODAY() as the anchor for all generated formulas. Select an existing date parameter from the workbook or create one inline. Formulas automatically use `[Parameters].[Reference Date]` instead of `TODAY()`, giving users control over which date drives the time intelligence logic.
 
 **Measure wrapping:** Select your base measures (Sales, Profit, etc.) and the builder creates filtered measure calculations for each time period flag.
 
