@@ -1,0 +1,29 @@
+TabLens License
+
+Copyright (c) 2026 Keith Troutt. All rights reserved.
+
+TabLens is provided free of charge for personal and commercial use.
+
+PERMITTED
+You may install and use TabLens on any number of machines you own or control,
+for personal or commercial purposes, including client work.
+
+NOT PERMITTED
+You may not redistribute, resell, sublicense, decompile, reverse-engineer, or
+create derivative works from TabLens or any part of it.
+
+NO WARRANTY
+TabLens is provided "AS IS", without warranty of any kind, express or implied,
+including but not limited to the warranties of merchantability, fitness for a
+particular purpose, and non-infringement.
+
+LIMITATION OF LIABILITY
+In no event shall the author be liable for any claim, damages, or other
+liability — including but not limited to data loss, workbook corruption, lost
+work, or business interruption — arising from or in connection with TabLens or
+its use.
+
+RECOMMENDATION
+TabLens modifies Tableau workbook files. Always work on non-production copies.
+TabLens creates automatic timestamped backups before saving, but you are
+responsible for your own data.
