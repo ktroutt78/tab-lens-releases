@@ -171,14 +171,14 @@ A Monaco-powered editor (the same engine behind VS Code) with:
 
 ## Installation
 
-Download the latest `.dmg` (macOS) or `.msi` (Windows) from the [Releases](../../releases) page.
+Download the `.dmg` (macOS) or `.msi` (Windows) from the [**latest release**](../../releases/latest). Always use this link so you get the current build — the [full releases list](../../releases) also shows older versions.
 
 ### macOS first launch
 
 macOS will block the app on first open. Run this once in Terminal after moving the app to Applications:
 
 ```bash
-xattr -cr /Applications/Tab\ Lens.app
+xattr -cr /Applications/TabLens.app
 ```
 
 Then open the app normally.
